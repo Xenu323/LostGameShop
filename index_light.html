@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LostGameShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+
+    <!-- Шапка сайта -->
+    <header class="header">
+
+        <img class="header__logo" src="img/logo.svg" alt="LostGameShop">
+
+        <a class="header__theme-link" href="index.html">
+            Темная тема
+        </a>
+
+        <nav class="header__nav">
+            <a class="header__link" href="index.html">Главная</a>
+            <a class="header__link" href="#games">Игры</a>
+            <a class="header__link" href="login.html">Войти</a>
+            <a class="header__link" href="register.html">Регистрация</a>
+            <a class="header__link" href="profile.html">Личный кабинет</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Главный блок -->
+        <section class="hero">
+
+            <h1 class="hero__title">LostGameShop</h1>
+
+            <p class="hero__text">
+                Магазин цифровых игр
+            </p>
+
+            <a class="hero__button" href="#games">
+                Смотреть игры
+            </a>
+
+        </section>
+
+        <!-- Преимущества магазина -->
+        <section class="advantages">
+
+            <h2 class="advantages__title">
+                Почему выбирают нас
+            </h2>
+
+            <div class="advantages__list">
+
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">
+                        Привлекательные цены
+                    </h3>
+
+                    <p class="advantages__item-text">
+                        Выгодные цены на популярные цифровые игры.
+                    </p>
+                </div>
+
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">
+                        Ежемесячные акции
+                    </h3>
+
+                    <p class="advantages__item-text">
+                        Регулярные скидки и специальные предложения.
+                    </p>
+                </div>
+
+                <div class="advantages__item">
+                    <h3 class="advantages__item-title">
+                        Быстрая покупка
+                    </h3>
+
+                    <p class="advantages__item-text">
+                        Простой процесс покупки без лишних действий.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Популярные игры -->
+        <section class="games" id="games">
+
+            <h2 class="games__title">
+                Популярные игры
+            </h2>
+
+            <div class="games__list">
+
+                <!-- Карточка игры -->
+                <article class="game-card">
+
+                    <img
+                        class="game-card__image"
+                        src="img/game_01.jpg"
+                        alt="Lost Kingdom"
+                    >
+
+                    <h3 class="game-card__title">
+                        Lost Kingdom
+                    </h3>
+
+                    <p class="game-card__info">
+                        Жанр: Action
+                    </p>
+
+                    <p class="game-card__info">
+                        Разработчик: Red Fox Studio
+                    </p>
+
+                    <p class="game-card__rating" aria-label="Рейтинг 5 из 5">
+                        ★★★★★
+                    </p>
+
+                    <span class="game-card__price">
+                        1 499 ₽
+                    </span>
+
+                </article>
+
+                <!-- Карточка игры -->
+                <article class="game-card">
+
+                    <img
+                        class="game-card__image"
+                        src="img/game_02.jpg"
+                        alt="Velocity Rush"
+                    >
+
+                    <h3 class="game-card__title">
+                        Velocity Rush
+                    </h3>
+
+                    <p class="game-card__info">
+                        Жанр: RPG
+                    </p>
+
+                    <p class="game-card__info">
+                        Разработчик: North Wind Games
+                    </p>
+
+                    <p class="game-card__rating" aria-label="Рейтинг 4 из 5">
+                        ★★★★☆
+                    </p>
+
+                    <span class="game-card__price">
+                        999 ₽
+                    </span>
+
+                </article>
+
+                <!-- Карточка игры -->
+                <article class="game-card">
+
+                    <img
+                        class="game-card__image"
+                        src="img/game_03.jpg"
+                        alt="Neon District"
+                    >
+
+                    <h3 class="game-card__title">
+                        Neon District
+                    </h3>
+
+                    <p class="game-card__info">
+                        Жанр: Strategy
+                    </p>
+
+                    <p class="game-card__info">
+                        Разработчик: Orbit Games
+                    </p>
+
+                    <p class="game-card__rating" aria-label="Рейтинг 4 из 5">
+                        ★★★★☆
+                    </p>
+
+                    <span class="game-card__price">
+                        1 199 ₽
+                    </span>
+
+                </article>
+
+                <!-- Карточка игры -->
+                <article class="game-card">
+
+                    <img
+                        class="game-card__image"
+                        src="img/game_04.jpg"
+                        alt="Star Colony"
+                    >
+
+                    <h3 class="game-card__title">
+                        Star Colony
+                    </h3>
+
+                    <p class="game-card__info">
+                        Жанр: Racing
+                    </p>
+
+                    <p class="game-card__info">
+                        Разработчик: DriveLab
+                    </p>
+
+                    <p class="game-card__rating" aria-label="Рейтинг 5 из 5">
+                        ★★★★★
+                    </p>
+
+                    <span class="game-card__price">
+                        799 ₽
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+
+        <div class="footer__info">
+            <p>info@lostgs.ru</p>
+            <p>О нас</p>
+            <p>Контакты</p>
+        </div>
+
+        <nav class="footer__nav">
+            <a class="footer__link" href="index.html">
+                Главная
+            </a>
+
+            <a class="footer__link" href="register.html">
+                Регистрация
+            </a>
+
+            <a class="footer__link" href="login.html">
+                Авторизация
+            </a>
+
+            <a class="footer__link" href="profile.html">
+                Личный кабинет
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
